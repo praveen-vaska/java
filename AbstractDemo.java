@@ -1,0 +1,19 @@
+import java.io.*;
+abstract public class Animal{
+    public abstract void animalSound();
+    public void eat(){
+        System.out.println("I can eat");
+    }
+}
+class Cow extends Animal{
+    public void animalSound(){
+        System.out.println("THe cow says maa");
+    }
+}
+class AbstractDemo{
+    public static void main(String args[]){
+        Cow c=new Cow();
+        c.animalSound();
+        c.eat();
+    }
+}
