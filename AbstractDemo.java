@@ -1,5 +1,5 @@
 import java.io.*;
-abstract public class Animal{
+abstract class Animal{
     public abstract void animalSound();
     public void eat(){
         System.out.println("I can eat");
